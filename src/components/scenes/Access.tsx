@@ -1,4 +1,4 @@
-import TextsDiv from '../textsDiv';
+import TextsDiv from '../TextsDiv';
 import tablet from '../../assets/images/image-devices.png';
 
 const Access = () => {

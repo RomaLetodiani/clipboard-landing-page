@@ -1,6 +1,6 @@
 import Button from '../UI/Button';
 import { companies, workFlow } from '../shared/consts';
-import TextsDiv from '../textsDiv';
+import TextsDiv from '../TextsDiv';
 
 const Workflow = () => {
   return (

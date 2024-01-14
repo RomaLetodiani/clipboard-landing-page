@@ -1,6 +1,6 @@
 import logo from '../../assets/images/logo.svg';
 import Button from '../UI/Button';
-import TextsDiv from '../textsDiv';
+import TextsDiv from '../TextsDiv';
 
 const Hero = () => {
   return (

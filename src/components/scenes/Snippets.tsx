@@ -1,4 +1,4 @@
-import TextsDiv from '../textsDiv';
+import TextsDiv from '../TextsDiv';
 import computer from '../../assets/images/image-computer.png';
 import { snippets } from '../shared/consts';
 import useMediaQuery from '@/hooks/useMediaQuery';
