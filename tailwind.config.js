@@ -4,15 +4,17 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Poppins', 'sans-serif'],
-      },
-      colors: {
-        primary: '#FF6363',
-        secondary: '#E2E2D5',
+        baiJamjuree: ['Bai Jamjuree', 'sans-serif'],
       },
       backgroundImage: {
-        'gradient-1':
-          'linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)',
+        desktop: "url('assets/images/bg-header-desktop.png')",
+        mobile: "url('assets/images/bg-header-mobile.png')",
+      },
+      colors: {
+        primary: '#26baa4',
+        secondary: '#6173ff',
+        darkGreyBlue: '#4c545d',
+        GrayishBlue: '#9fabb2',
       },
       screens: {
         xs: '480px',
