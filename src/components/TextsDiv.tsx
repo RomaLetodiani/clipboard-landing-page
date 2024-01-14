@@ -2,8 +2,8 @@ type Props = {
   title: string;
   desc: string;
   textAligment?: string;
-  titleSize: string;
-  descSize: string;
+  titleSize?: string;
+  descSize?: string;
   descMaxWidth?: string;
   gapSize?: string;
 };

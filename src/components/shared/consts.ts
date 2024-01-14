@@ -1,3 +1,20 @@
+//companies
+import logoGoogle from '../../assets/images/logo-google.png';
+import logoIBM from '../../assets/images/logo-ibm.png';
+import logoMicrosoft from '../../assets/images/logo-microsoft.png';
+import logoHP from '../../assets/images/logo-hp.png';
+import logoVector from '../../assets/images/logo-vector-graphics.png';
+
+//workflow
+import iconBlacklist from '../../assets/images/icon-blacklist.svg';
+import iconText from '../../assets/images/icon-text.svg';
+import iconPreview from '../../assets/images/icon-preview.svg';
+
+//socials
+import facebook from '../../assets/images/icon-facebook.svg';
+import twitter from '../../assets/images/icon-twitter.svg';
+import instagram from '../../assets/images/icon-instagram.svg';
+
 export const snippets = [
   {
     id: 1,
@@ -19,19 +36,19 @@ export const snippets = [
 export const workFlow = [
   {
     id: 1,
-    icon: 'assets/images/icon-blacklist.svg',
+    icon: iconBlacklist,
     title: 'Create blacklists',
     desc: 'Ensure sensitive information never makes its way to your clipboard by excluding certain sources',
   },
   {
     id: 2,
-    icon: 'assets/images/icon-text.svg',
+    icon: iconText,
     title: 'Plain text snippets',
     desc: 'Remove unwanted formatting from copied text for a consistent look',
   },
   {
     id: 3,
-    icon: 'assets/images/icon-preview.svg',
+    icon: iconPreview,
     title: 'Sneak preview',
     desc: 'Quick preview of all snippets on your Clipboard for easy access',
   },
@@ -40,40 +57,71 @@ export const workFlow = [
 export const companies = [
   {
     id: 1,
-    logo: 'assets/images/logo-google.svg',
+    logo: logoGoogle,
+    alt: 'Google',
   },
   {
     id: 2,
-    logo: 'assets/images/logo-ibm.svg',
+    logo: logoIBM,
+    alt: 'IBM',
   },
   {
     id: 3,
-    logo: 'assets/images/logo-microsoft.svg',
+    logo: logoMicrosoft,
+    alt: 'Microsoft',
   },
   {
     id: 4,
-    logo: 'assets/images/logo-hp.svg',
+    logo: logoHP,
+    alt: 'HP',
   },
   {
     id: 5,
-    logo: 'assets/images/logo-vector-graphics.svg',
+    logo: logoVector,
+    alt: 'Vector Graphics',
   },
 ];
 
 export const socials = [
   {
     id: 1,
-    icon: 'assets/images/icon-facebook.svg',
+    icon: facebook,
+    alt: 'Facebook',
     link: 'https://www.facebook.com/LetodianiRoma/',
   },
   {
     id: 2,
-    icon: 'assets/images/icon-twitter.svg',
+    icon: twitter,
+    alt: 'Twitter',
     link: 'https://twitter.com/l3todianiroma',
   },
   {
     id: 3,
-    icon: 'assets/images/icon-instagram.svg',
+    icon: instagram,
+    alt: 'Instagram',
     link: 'https://www.instagram.com/roma.letodiani',
+  },
+];
+
+export const footerTexts = [
+  {
+    id: 1,
+    title: 'FAQs',
+  },
+  {
+    id: 2,
+    title: 'Contact Us',
+  },
+  {
+    id: 3,
+    title: 'Privacy Policy',
+  },
+  {
+    id: 4,
+    title: 'Press Kit',
+  },
+  {
+    id: 5,
+    title: 'Install Guide',
   },
 ];
